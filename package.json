@@ -1,0 +1,17 @@
+{
+  "name": "docker-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "rebuild": "docker build -t docker-tutorial .",
+    "run": "docker run docker-tutorial"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
