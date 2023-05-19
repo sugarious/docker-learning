@@ -1,0 +1,6 @@
+POST  http://google.com/
+Content-Type: application/json
+
+{
+    "username": "Sulav"
+}
